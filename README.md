@@ -10,7 +10,7 @@ Requires Node.js 18 or newer.
 npm start
 ```
 
-Open http://localhost:3000. The interface loads without a key; AI replies can use a key entered in the page under **AI settings**. Choose OpenAI or Google Gemini, select a model, paste that provider’s API key, and select **Use this key**. Gemini API keys can be created in [Google AI Studio](https://aistudio.google.com/app/apikey). The key is held in tab memory and sent to this app server over the request header when sending a request to the selected provider; it is not saved to local storage or logged by this server. Closing or refreshing the tab clears it. You can alternatively configure a server key:
+Open (https://n-y-a-y-a-a-i.onrender.com). The interface loads without a key; AI replies can use a key entered in the page under **AI settings**. Choose OpenAI or Google Gemini, select a model, paste that provider’s API key, and select **Use this key**. Gemini API keys can be created in [Google AI Studio](https://aistudio.google.com/app/apikey). The key is held in tab memory and sent to this app server over the request header when sending a request to the selected provider; it is not saved to local storage or logged by this server. Closing or refreshing the tab clears it. You can alternatively configure a server key:
 
 ```sh
 OPENAI_API_KEY=your_key_here npm start
